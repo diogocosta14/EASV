@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.ContextMenu?>
+<AnchorPane fx:id="anchorpane" onMousePressed="#exitmenu" prefHeight="456.0" prefWidth="920.0" style="-fx-border-color: black; -fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.MainWindowController">
+    <fx:define>
+        <ContextMenu fx:id="contextMenu">
+        </ContextMenu>
+    </fx:define>
+    <children>
+        <HBox layoutX="1.0" layoutY="86.0" prefHeight="326.0" prefWidth="920.0">
+            <children>
+                <VBox fx:id="cat" prefHeight="370.0" prefWidth="299.0">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="247.0" text="Category" />
+                        <TableView id="test1" fx:id="tableviewCategories" onMouseClicked="#getmoviesincat" prefHeight="308.0" prefWidth="305.0">
+                            <columns>
+                                <TableColumn fx:id="categoryname" prefWidth="298.0" text="Name                              " />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="321.0" prefWidth="311.0">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="141.0" text="movies in Category" />
+                        <TableView id="cte" fx:id="movieInCategory" prefHeight="307.0" prefWidth="311.0">
+                            <columns>
+                                <TableColumn fx:id="moviesincategorycolumn" prefWidth="310.0" text="Movie titles inside the choosing category " />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="326.0" prefWidth="314.0">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="166.0" text="Movies" />
+                        <TableView id="m" fx:id="tableviewMovies" prefHeight="306.0" prefWidth="254.0">
+                            <columns>
+                                <TableColumn fx:id="rate" prefWidth="37.0" text="Rate" />
+                                <TableColumn fx:id="name" minWidth="0.0" prefWidth="86.0" text="name" />
+                                <TableColumn fx:id="view" prefWidth="95.0" text="lastview" />
+                                <TableColumn fx:id="moviesid" prefWidth="94.0" text="ID" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <TextField fx:id="searchid" layoutX="615.0" layoutY="43.0" onKeyReleased="#search" prefHeight="25.0" prefWidth="280.0" />
+        <Label layoutX="619.0" layoutY="26.0" prefHeight="17.0" prefWidth="156.0" text="Movie seacher" />
+        <Label fx:id="movinglbl" layoutX="0" layoutY="425.0" prefHeight="21.0" prefWidth="200.0" text="Made by the Dragon Slayer" textFill="RED" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
