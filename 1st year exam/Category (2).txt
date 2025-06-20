@@ -1,0 +1,101 @@
+String hc_category1 = "Function level";
+String hc_subcategory1.1 = "Problems with personal care";
+String hc_subcategory1.2 = "Problems with daily activities";
+String hc_category2 = "Movement device";
+String hc_subcategory2.1 = "Problems with mobility and movement";
+String hc_category3 = "Nutrition";
+String hc_subcategory3.1 = "Problems with fluid intake";
+String hc_subcategory3.2 = "Problems with food intake";
+String hc_subcategory3.3 = "Inappropriate weight change";
+String hc_subcategory3.4 = "Problems with obesity";
+String hc_subcategory3.5 = "Problems with underweight";
+String hc_category4 = "Skin and mucous membranes";
+String hc_subcategory4.1 = "Problems with surgical wounds";
+String hc_subcategory4.2 = "Problems with diabetic ulcers";
+String hc_subcategory4.3 = "Problems with cancerous lesions";
+String hc_subcategory4.4 = "Problems with pressure ulcers";
+String hc_subcategory4.5 = "Problems with arterial ulcer";
+String hc_subcategory4.6 = "Problems with venous ulcer";
+String hc_subcategory4.7 = "Problems with mixed wounds";
+String hc_subcategory4.8 = "Problems with trauma wounds";
+String hc_subcategory4.9 = "Other skin and mucous membrane problems";
+String hc_category5 = "Communication";
+String hc_subcategory5.1 = "Problems with communication";
+String hc_category6 = "Psychosocial conditions";
+String hc_subcategory6.1 = "Problems with socializing";
+String hc_subcategory6.2 = "Emotional problems";
+String hc_subcategory6.3 = "Problems with abuse";
+String hc_subcategory6.4 = "Mental problems";
+String hc_category7 = "Respiration and circulation";
+String hc_subcategory7.1 = "Respiratory problems";
+String hc_subcategory7.2 = "Circulatory problems";
+String hc_category8 = "Sexuality";
+String hc_subcategory8.1 = "Problems with sexuality";
+String hc_category9 = "Pain and sensory impressions";
+String hc_subcategory9.1 = "Acute pain";
+String hc_subcategory9.2 = "Periodic pain";
+String hc_subcategory9.3 = "Chronic pain";
+String hc_subcategory9.4 = "Problems with the sense of sight";
+String hc_subcategory9.5 = "Problems with the sense of smell";
+String hc_subcategory9.6 = "Hearing problems";
+String hc_subcategory9.7 = "Problems with the sense of taste";
+String hc_subcategory9.8 = "Problems with the sense of touch";
+String hc_category10 = "Sleep and rest";
+String hc_subcategory10.1 = "Circadian rhythm problems";
+String hc_subcategory10.2 = "Sleep problems";
+String hc_category11 = "Knowledge and development";
+String hc_subcategory11.1 = "Memory problems";
+String hc_subcategory11.2 = "Problems with disease insight";
+String hc_subcategory11.3 = "Problems with insight into treatment purposes";
+String hc_subcategory11.4 = "Cognitive problems";
+String hc_category12 = "Separation of waste products";
+String hc_subcategory12.1 = "Problems with urination";
+String hc_subcategory12.2 = "Problems with urinary incontinence";
+String hc_subcategory12.3 = "Problems with stool incontinence";
+String hc_subcategory12.4 = "Stomach and intestinal problems";
+
+String fa_category1 = "Self-care";
+String fa_subcategory1.1 = "Wash";
+String fa_subcategory1.2 = "Go to the bathroom";
+String fa_subcategory1.3 = "Body care";
+String fa_subcategory1.4 = "Undressing and dressing";
+String fa_subcategory1.5 = "Eat";
+String fa_subcategory1.6 = "Drinking";
+String fa_subcategory1.7 = "Take care of your own health";
+String fa_subcategory1.8 = "Food intake";
+String fa_category2 = "Practical tasks";
+String fa_subcategory2.1 = "Perform daily routines";
+String fa_subcategory2.2 = "Acquire goods and services";
+String fa_subcategory2.3 = "Cook";
+String fa_subcategory2.4 = "Do housework";
+String fa_category3 = "Mobility";
+String fa_subcategory3.1 = "Change body position";
+String fa_subcategory3.2 = "Move";
+String fa_subcategory3.3 = "Lift and carry";
+String fa_subcategory3.4 = "Go";
+String fa_subcategory3.4 = "Move around";
+String fa_subcategory3.5 = "The journey in different surroundings";
+String fa_subcategory3.6 = "Use means of transport";
+String fa_subcategory3.7 = "Endurance";
+String fa_subcategory3.8 = "Muscle Strenght";
+String fa_category4 = "Mental functions";
+String fa_subcategories4.1 = "Acquire skills";
+String fa_subcategories4.2 = "Problem solving";
+String fa_subcategories4.3 = "Apply communication equipment and techniques";
+String fa_subcategories4.4 = "Orientation ability";
+String fa_subcategories4.5 = "Energy and action";
+String fa_subcategories4.5 = "Memory";
+String fa_subcategories4.6 = "Emotional functions";
+String fa_subcategories4.7 = "Overall cognitives functions";
+String fa_category5 = "Community life";
+String fa_subcategories5.1 = "Have paid employment";
+
+
+
+
+
+
+
+
+
+
