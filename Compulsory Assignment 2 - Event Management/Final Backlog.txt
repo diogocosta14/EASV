@@ -1,0 +1,46 @@
+I am a user and I want to log in with username and password
+
+I am an Admin and I want to create users
+
+I am an Admin and I want to manage users
+
+I am an Event Coordinator and I want to create events
+
+I am an Event and I want to have a name
+
+I am an Event and I want a start date and time
+
+I am an Event and I want an end date and time
+
+I am an Event and I want a location
+
+I am an Admin and I want to delete events
+
+I am an Event Coordinator and I want to manage events
+
+I am an Admin and I can't manage events
+
+I am an Event Coordinator and I want to add customers to events
+
+I am an Event Coordinator and I want to search customers
+
+I am an Event and I want a list of participants
+
+I am a ticket and I want event info
+
+I am a ticket and I want a QR code and corresponding barcode
+
+I am a Customer and I want to print or show my ticket for the event
+
+I am a Customer and I want to see the events I will participate or already participate
+
+I am a Customer and I want to see the admission tickets for the events I will participate or already participate
+
+I am an Event and I want to have customized tickets (eg.: VIP, Food included, 1st row, free beer, etc)
+
+I am an Event and I want notes (extra info about the event)
+
+I am an Event and I want a location guidance
+
+
+
